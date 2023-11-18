@@ -6,10 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-     "preview": "vite preview",
+    "preview": "vite preview",
     "lint": "npx eslint src --ext .ts,.tsx"
   },
   "dependencies": {
+    "react-router-dom": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^6.1.1"
