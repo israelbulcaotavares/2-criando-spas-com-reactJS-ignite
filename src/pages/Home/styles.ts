@@ -50,7 +50,14 @@ const BaseInput = styled.input`
 
 export const TaskInput = styled(BaseInput)`
     flex: 1; /* estica os elementos até aonde caber */
+
+    &::-webkit-calendar-picker-indicator { /* remove setinha p/ baixo no campo */
+        display: none !important ;
+
+    }
 `;
+
+
 export const MinutesAmountInput = styled(BaseInput)`
     width: 4rem;
 `;
